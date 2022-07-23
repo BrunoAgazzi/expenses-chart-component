@@ -77,6 +77,8 @@ body{
     padding: 5px;
     border-radius: 3px;
     margin: 0 0 8px 0;
+    position: absolute;
+    margin-top: -35px;
     display: none;
 }
 .bar{
