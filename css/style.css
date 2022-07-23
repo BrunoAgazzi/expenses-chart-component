@@ -9,7 +9,6 @@
     --VeryPaleOrange: hsl(33, 100%, 98%);
 }
 
-
 html,body{
     margin: 0;
 }
@@ -80,11 +79,15 @@ body{
     position: absolute;
     margin-top: -35px;
     display: none;
+    animation-name: numberAnimation;
+    animation-duration: .5s;
 }
 .bar{
     background-color: var(--SoftRed);
     border-radius: 3px;
     width: 38px;
+    animation-name: barAnimation;
+    animation-duration: 2s;
 }
 
 .bar:hover{
@@ -148,4 +151,30 @@ body{
    
     }
 
+}
+
+@media (min-width: 1441px) {
+    main{
+        transform: scale(1.5);
+
+    }
+   
+
+}
+
+/* animation */
+
+@keyframes barAnimation {
+    0%{  
+        height: 0;
+    } 
+}
+
+@keyframes numberAnimation {
+    0%{  
+        transform: scale(0);
+    } 
+    100%{
+        transform: scale(1);
+    }
 }
