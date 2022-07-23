@@ -126,7 +126,7 @@ body{
     margin-top: 20px;
 
 }
-.porcent-container h5{
+.porcent-container h3{
     margin: 0;
 
 }
@@ -137,8 +137,13 @@ body{
 }
 
 @media (max-width: 375px) {
-    .chart-container{
+    main{
         width: 90%;
+
+    }
+    .chart-container{
+        width: 100%;
    
     }
+
 }
