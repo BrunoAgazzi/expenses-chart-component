@@ -35,7 +35,7 @@ body{
     border-radius: 10px;
     color: var(--VeryPaleOrange);
 }
-.chart-title  h2,h1{
+.chart-title  h1,h2{
     margin: 0;
 }
 .chart-title  p{
@@ -126,7 +126,7 @@ body{
     margin-top: 20px;
 
 }
-.porcent-container h3{
+.porcent-container h2{
     margin: 0;
 
 }
